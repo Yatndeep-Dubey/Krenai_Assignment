@@ -4,7 +4,7 @@
     "slug": "assignment_krenai",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/kreani_logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/kreani_logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yatndeep.assignment_krenai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1bcf26ef-02d5-4e1c-a82f-998d40e3b3a0"
+      }
     }
   }
 }
